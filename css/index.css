@@ -1,0 +1,180 @@
+body{
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.main .header{
+    background-color: rgb(29, 29, 29);
+    height: 100px;
+    position: sticky;
+}
+.main .header h1{
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: white;
+    width: 110px;
+}
+.main .header ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.main .header li{
+    display: inline;
+    padding: 10px;
+}
+.main .header li a:hover{
+    color: tomato;
+}
+.main .header li a{
+    transition: all 0.6s;
+    text-decoration: none;
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+.main .content h1{
+    color: white;
+    margin-left: 110px;
+    margin-top: 8%;
+    font-size: 30px;
+}
+.main .content form{
+    width: 700px;
+}
+.main .content .info-one{
+    width: 234px;
+    height: 35px;
+    margin-left: 110px;
+    border-radius: 4px;
+    border: rgba(58, 56, 56, 0.521);
+    background-color: rgba(58, 56, 56, 0.321);
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+    transition: all 0.6s;
+}
+.main .content .info-one:hover{
+    background-color: tomato;
+}
+.main .content .info-two{
+    width: 240px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 4px;
+    border: rgba(58, 56, 56, 0.521);
+    background-color: rgba(58, 56, 56, 0.321);
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+    transition: all 0.6s;
+}
+.main .content .info-two:hover{
+    background-color: tomato;
+}
+.main .content .mes-info{
+    margin-left: 110px;
+    width: 503px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: rgba(58, 56, 56, 0.521);
+    background-color: rgba(58, 56, 56, 0.321);
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+    transition: all 0.6s;
+}
+.main .content .mes-info:hover{
+    background-color: tomato;
+}
+.main .content .sendMail{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 27px;
+    border-radius: 4px;
+    border: rgba(255, 99, 71, 0.347);
+    background-color: rgba(255, 99, 71, 0.347);
+    color: white;
+    font-size: 12px;
+    transition: all 0.6s
+}
+.main .content .sendMail:hover{
+    background-color: rgb(110, 59, 230);
+}
+.main .content .sendMail::before{
+    position: absolute;
+    content: '\f1d8';
+    top: 11px;
+    left: 6px;
+    font-family: "FontAwesome";
+    color: white;
+    font-size: 10px;
+}
+.main .content .left{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.main .content .right{
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin-top: 7%;
+}
+.main .content .right .up .item-up-one, .item-up-two{
+    margin-left: 50px;
+    float: left;
+    background-color: rgba(58, 56, 56, 0.321);
+    color: white;
+    width: 202px;
+    height: 36px;
+    margin: 7px 7px 7px 0px;
+    font-size: 12px;
+    padding: 8px;
+    transition: all 0.6s;
+}
+.main .content .right .up .item-up-one:hover{
+    background-color: tomato;
+}
+.main .content .right .up .item-up-two:hover{
+    background-color: tomato;
+}
+.main .content .right .up .icon-box-up-one, .icon-box-up-two{
+    float: left;
+    margin-top: 7px;
+    width: 15px;
+    background-color: tomato;
+    padding: 17px;
+    color: white;
+}
+.main .content .right .down .item-down-one, .item-down-two{
+    float: left;
+    background-color: rgba(58, 56, 56, 0.321);
+    color: white;
+    width: 200px;
+    height: 46px;
+    margin: 7px 7px 7px 0px;
+    padding: 6px;
+    font-size: 12px;
+    transition: all 0.6s;
+}
+.main .content .right .down .item-down-one:hover{
+    background-color: tomato;
+}
+.main .content .right .down .item-down-two:hover{
+    background-color: tomato;
+}
+.main .content .right .down .icon-box-down-one, .icon-box-down-two{
+    float: left;
+    margin-top: 7px;
+    width: 15px;
+    background-color: tomato;
+    padding: 20px;
+    color: white;
+}
